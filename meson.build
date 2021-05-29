@@ -20,7 +20,6 @@ project('libtins', 'c', 'cpp',
     license : 'BSD-2-clause',
     meson_version : '>= 0.43.0',
     default_options : [
-        'warning_level=1',
         'prefix=/usr',
     ],
 )
