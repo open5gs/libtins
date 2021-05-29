@@ -35,6 +35,7 @@ if cc.get_id() == 'gcc' or cc.get_id() == 'clang'
         '-Werror',
 
         '-Wno-deprecated-declarations',
+        '-Wno-unused-private-field',
     ]
 else
     possible_cc_flags = []
