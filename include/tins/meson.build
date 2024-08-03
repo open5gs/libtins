@@ -28,6 +28,7 @@ if cc.links('''#include <stdint.h>
                    return (u16 > 0 && u32 > 0 && u64 > 0) ? 0 : 1;
                }''', name : 'gcc built-in swap call')
     libtins_conf.set('TINS_HAVE_GCC_BUILTIN_SWAP', 1)
+    libtins_conf.set('TINS_HAVE_CXX11', 1)
 endif
 
 # Version of the source code
